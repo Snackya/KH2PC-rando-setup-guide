@@ -17,16 +17,32 @@ Make sure to extract all of them.
 
 ## Setup
 You will only have to do this setup once.
-### Patching the KH2FM.exe
+### Internal
+The internal approach requires you to patch your KINGDOM HEARTS II FINAL MIX.exe.
+
+#### Patching the KH2FM.exe
 1. **Important:** Backup your original "KINGDOM HEARTS II FINAL MIX.exe".
 2. Open up the Rompatcher.js website.
 3. Under "ROM file", click "Choose File" and select your KINGDOM HEARTS II FINAL MIX.exe inside your game directory.
 4. Under "Patch file" click "Choose File" and select the KINGDOM HEARTS II FINAL MIX.bps inside LuaBackend/Internal/patches.
 5. Click "Apply patch" and save the resulting .exe file as "KINGDOM HEARTS II FINAL MIX.exe" into your game directory.
 
-### Setting up scripts
+#### Setting up scripts
 1. Create a folder called "scripts" inside Documents/KINGDOM HEARTS HD 1.5+2.5 ReMIX
 2. Copy the FAF99301 GoA.lua into the scripts folder.
+
+### External
+The external approach does not modify game files. However, you will need to start an additional program every time you start your game for a randomizer run.
+
+#### Setting up LuaBackend.exe
+1. Open your LuaBackend/External folder.
+2. Copy the KINGDOM HEARTS II FINAL MIX.ini from the "preset_configs" folder into the "External" folder, next to LuaBackend.exe.
+3. Rename KINGDOM HEARTS II FINAL MIX.ini to "config.ini".
+(If you cannot see the .ini file extension, just rename it to "config")
+4. (Optional) If you want to change the refresh rate of the Backend, open "config.ini" and add “REFRESH = 240" on a new line at the bottom of the file. Viable values are 60, 120, 240.
+
+#### Setting up scripts
+Just copy all your .lua files into LuaBackend/External/scripts
 
 ## Creating a seed
 You will need a new seed for every new run.
