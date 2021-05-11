@@ -16,8 +16,16 @@ Converts the old .pnach files to .lua files for LuaBackend
 Make sure to extract all of them.
 
 ## Setup
+For setting up the randomizer for PC, you have two options: external or internal.
+
+| LuaBackend method                             | Internal | External |
+|-----------------------------------------------|----------|----------|
+| requires modifying the game .exe              |  yes     |   no     |
+| requires running LuaBackend.exe on every run  |  no      |   yes    |
+
 You will only have to do this setup once.
-### Internal
+
+### Method A) Internal
 The internal approach requires you to patch your KINGDOM HEARTS II FINAL MIX.exe.
 
 #### Patching the KH2FM.exe
@@ -31,7 +39,7 @@ The internal approach requires you to patch your KINGDOM HEARTS II FINAL MIX.exe
 1. Create a folder called "scripts" inside Documents/KINGDOM HEARTS HD 1.5+2.5 ReMIX
 2. Copy the FAF99301 GoA.lua into the scripts folder.
 
-### External
+### Method B) External
 The external approach does not modify game files. However, you will need to start an additional program every time you start your game for a randomizer run.
 
 #### Setting up LuaBackend.exe
