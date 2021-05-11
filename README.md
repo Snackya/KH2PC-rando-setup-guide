@@ -16,6 +16,7 @@ Converts the old .pnach files to .lua files for LuaBackend
 Make sure to extract all of them.
 
 ## Setup
+You will only have to do this setup once.
 ### Patching the KH2FM.exe
 1. **Important:** Backup your original "KINGDOM HEARTS II FINAL MIX.exe".
 2. Open up the Rompatcher.js website.
@@ -27,10 +28,12 @@ Make sure to extract all of them.
 1. Create a folder called "scripts" inside Documents/KINGDOM HEARTS HD 1.5+2.5 ReMIX
 2. Copy the FAF99301 GoA.lua into the scripts folder.
 
-### Converting the seed file
-1. Drag your .pnach file and drop it onto "Rando Converter.exe".
+## Creating a seed
+You will need a new seed for every new run.
+1. Get the .pnach seed file from [Valaxor's website](https://randomizer.valaxor.com/#/seed).
+2. Drag your .pnach file and drop it onto "Rando Converter.exe".
 (Alternatively, you can copy the file into the same directory, launch the .exe and input the file name.)
-2. Copy the FAF99301.pnach.lua into the "scripts" folder you created before.
+3. Copy the FAF99301.pnach.lua into the "scripts" folder you created before.
 
-### Finally
+## Finally
 Run your "KH2FM Randomizer.exe".
