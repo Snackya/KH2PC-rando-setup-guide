@@ -25,6 +25,7 @@ For setting up the randomizer for PC, you have two options: external or internal
 
 You will only have to do this setup once.
 
+----------------------
 ### Method A) Internal
 The internal approach requires you to patch your KINGDOM HEARTS II FINAL MIX.exe.
 
@@ -39,6 +40,7 @@ The internal approach requires you to patch your KINGDOM HEARTS II FINAL MIX.exe
 1. Create a folder called "scripts" inside Documents/KINGDOM HEARTS HD 1.5+2.5 ReMIX
 2. Copy the FAF99301 GoA.lua into the scripts folder.
 
+----------------------
 ### Method B) External
 The external approach does not modify game files. However, you will need to start an additional program every time you start your game for a randomizer run.
 
@@ -51,6 +53,8 @@ The external approach does not modify game files. However, you will need to star
 
 #### Setting up scripts
 Just copy all your .lua files into LuaBackend/External/scripts
+
+----------------------
 
 ## Creating a seed
 You will need a new seed for every new run.
