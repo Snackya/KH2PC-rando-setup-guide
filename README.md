@@ -37,3 +37,8 @@ You will need a new seed for every new run.
 
 ## Finally
 Run your "KH2FM Randomizer.exe".
+
+## Acknowledgments
+- [Sonicshadowsilver2](https://github.com/sonicshadowsilver2) for creating the GoA mod.
+- [Topaz](https://github.com/Topaz-Reality) for creating LuaBackend.
+- [Valaxor](https://github.com/afresquet) for creating the seed generator.
