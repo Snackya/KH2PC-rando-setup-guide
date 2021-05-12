@@ -64,7 +64,7 @@ You will need a new seed for every new run.
 3. Copy the FAF99301.pnach.lua into the "scripts" folder you created before.
 
 ## Finally
-- Interal: Launch your game (via the Epic Games Store).(Press F2 to open the console. F3 then changes the refresh rate. 240 Hz is recommended)
+- Interal: Launch your game (via the Epic Games Store). (Press F2 to open the console. F3 then changes the refresh rate. 240 Hz is recommended)
 - External: Launch your game (via the Epic Games Store) followed by the LuaBackend.exe.
 
 ## Acknowledgments
