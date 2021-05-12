@@ -64,7 +64,8 @@ You will need a new seed for every new run.
 3. Copy the FAF99301.pnach.lua into the "scripts" folder you created before.
 
 ## Finally
-Run your "KH2FM Randomizer.exe".
+- Interal: Run your newly patched .exe. (Press F2 to open the console. F3 then changes the refresh rate.)
+- External: Run your original game .exe followed by the LuaBackend.exe.
 
 ## Acknowledgments
 - [Sonicshadowsilver2](https://github.com/sonicshadowsilver2) for creating the GoA mod.
