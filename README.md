@@ -49,7 +49,7 @@ The external approach does not modify game files. However, you will need to star
 2. Copy the KINGDOM HEARTS II FINAL MIX.ini from the "preset_configs" folder into the "External" folder, next to LuaBackend.exe.
 3. Rename KINGDOM HEARTS II FINAL MIX.ini to "config.ini".
 (If you cannot see the .ini file extension, just rename it to "config")
-4. (Optional) If you want to change the refresh rate of the Backend, open "config.ini" and add “REFRESH = 240" on a new line at the bottom of the file. Viable values are 60, 120, 240.
+4. (Recommended) Change the refresh rate of the Backend by opening "config.ini" and addiing “REFRESH = 240" on a new line at the bottom of the file. (Viable values are 60, 120, 240.)
 
 #### Setting up scripts
 Just copy all your .lua files into LuaBackend/External/scripts
@@ -64,8 +64,8 @@ You will need a new seed for every new run.
 3. Copy the FAF99301.pnach.lua into the "scripts" folder you created before.
 
 ## Finally
-- Interal: Run your newly patched game .exe. (Press F2 to open the console. F3 then changes the refresh rate.)
-- External: Run your original game .exe followed by the LuaBackend.exe.
+- Interal: Launch your game (via the Epic Games Store).(Press F2 to open the console. F3 then changes the refresh rate. 240 Hz is recommended)
+- External: Launch your game (via the Epic Games Store) followed by the LuaBackend.exe.
 
 ## Acknowledgments
 - [Sonicshadowsilver2](https://github.com/sonicshadowsilver2) for creating the GoA mod.
