@@ -7,7 +7,7 @@ download LuaBackend.7z; if you don't have 7zip to extract the archive, you can d
 - [Rompatcher.js](https://www.marcrobledo.com/RomPatcher.js/)
 Website to patch the .exe. Just keep it open in your browser for now.
 - the [GoA.lua mod file](https://gist.github.com/1234567890num/1adde394770d5f7f1690493bd0ff7c34)
-Click on "Download ZIP" in the top right corner. Alternatively, you can use the direct download link [here](https://gist.github.com/1234567890num/1adde394770d5f7f1690493bd0ff7c34/archive/df9edd1278c53844fc5ed6826cffa6e329698140.zip)
+Click on "Download ZIP" in the top right corner.
 - a .pnach randomizer seed file generated on [Valaxor's website](https://randomizer.valaxor.com/#/seed)
 Just choose whichever settings you want and click "Download Seed" -> "CrazyCatz..."
 - [Num's Rando Converter](https://drive.google.com/file/d/1OLySE7NkXIag3NBnH0J3OukKzk9fdVkl/view)
