@@ -35,7 +35,7 @@ The internal approach requires you to patch your KINGDOM HEARTS II FINAL MIX.exe
 3. Under "ROM file", click "Choose File" and select your KINGDOM HEARTS II FINAL MIX.exe inside your game directory.
 4. Under "Patch file" click "Choose File" and select the KINGDOM HEARTS II FINAL MIX.bps inside LuaBackend/Internal/patches.
 5. Click "Apply patch" and save the resulting .exe file as "KINGDOM HEARTS II FINAL MIX.exe" into your game directory.
-6. Copy “discord-rpc.dll” and “LuaBackend.dll” from the LuaBackend/Internal Folder to your game directory (next to the patched .exe)
+6. Copy “LuaBackend.dll” from the LuaBackend/Internal Folder to your game directory (next to the patched .exe)
 
 #### Setting up scripts
 1. Create a folder called "scripts" inside Documents/KINGDOM HEARTS HD 1.5+2.5 ReMIX
