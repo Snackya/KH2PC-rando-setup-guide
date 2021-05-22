@@ -59,7 +59,8 @@ Just copy all your .lua files into LuaBackend/External/scripts
 ----------------------
 
 ## Creating a seed
-You will need a new seed for every new run.
+You will need a new seed for every new run.  
+**Important:** Anything inside Experimental currently does not work with PC Rando. If you create a seed with boss rando, the rando will not work.
 1. Get the .pnach seed file from [Valaxor's website](https://randomizer.valaxor.com/#/seed).
 2. Drag your .pnach file and drop it onto "Rando Converter.exe".
 (Alternatively, you can copy the file into the same directory, launch the .exe and input the file name.)
