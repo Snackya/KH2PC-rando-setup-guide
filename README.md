@@ -26,7 +26,7 @@ You will need a new seed for every new run.
 3. Right-click inside the box on the right under "Scripts:". Then click `Open Script Folder...`. Windows should open that folder in its File Explorer.
 4. Copy your script files (GoA.lua and your [seed file](##Creating-a-seed)) into this folder.
 5. Right-click inside the right box of LuaFrontend again and click `Refresh List`. Every script you have should now be listed inside the box with a green checkmark icon. If it shows a red X, double click the script to get a detailed error about what the problem is.
-6. Start your game and click Engine > `Start Engine`.
+6. Start your game and click Engine > `Start Engine`. (You can also start your game afterwards. It does not matter.)
 7. **Optional:** To reduce CPU load on single cores, enable multithreading under Engine > `Enable Multi-Threading`. This will require one logical CPU thread for each script, so make sure your CPU has enough of them. (If you only run GoA and a rando seed file, this option should work for most CPUs).
 
 ## Acknowledgments
