@@ -9,7 +9,7 @@ Click on "Download ZIP" in the top right corner.
 - a .pnach randomizer seed file generated on [Valaxor's website](https://randomizer.valaxor.com/#/seed)
 Just choose whichever settings you want and click "Download Seed" -> "CrazyCatz..."
 - [Num's Rando Converter](https://drive.google.com/file/d/1OLySE7NkXIag3NBnH0J3OukKzk9fdVkl/view)
-Converts the old .pnach files to .lua files for LuaBackend
+Converts the old .pnach files to .lua files for LuaFrontend
 
 Make sure to extract all of them.
 
