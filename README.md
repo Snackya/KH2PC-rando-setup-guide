@@ -1,5 +1,5 @@
 # KH2FM PC Randomizer Setup Guide
-This guide will show you how to get the KH2FM randomizer running with sonic's GoA mod on PC using Topaz's internal LuaBackend.
+This guide will show you how to get the KH2FM randomizer running with sonic's GoA mod on PC using Topaz's LuaFrontend.
 
 ## What you will need
 - [LuaFrontend](https://github.com/Topaz-Reality/LuaFrontend/releases/latest)
