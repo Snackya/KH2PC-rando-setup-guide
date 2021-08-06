@@ -4,12 +4,9 @@ This guide will show you how to get the KH2FM randomizer running with sonic's Go
 ## What you will need
 - [LuaFrontend](https://github.com/Topaz-Reality/LuaFrontend/releases/latest)
 download LuaFrontend.7z; if you don't have 7zip to extract the archive, you can download it [here](https://www.7-zip.org/download.html)
-- the [GoA.lua mod file](https://gist.github.com/1234567890num/1adde394770d5f7f1690493bd0ff7c34)
-Click on "Download ZIP" in the top right corner.
+- the [GoA.RAM.lua mod file and Rando converter](https://github.com/1234567890num/Garden-of-Assemblage-Mod-Lua/releases/latest)
 - a .pnach randomizer seed file generated on [Valaxor's website](https://randomizer.valaxor.com/#/seed)
 Just choose whichever settings you want and click "Download Seed" -> "CrazyCatz..."
-- [Num's Rando Converter](https://drive.google.com/file/d/1OLySE7NkXIag3NBnH0J3OukKzk9fdVkl/view)
-Converts the old .pnach files to .lua files for LuaBackend
 
 Make sure to extract all of them.
 
@@ -17,8 +14,8 @@ Make sure to extract all of them.
 You will need a new seed for every new run.  
 **Important:** Anything inside Experimental currently does not work with PC Rando. If you create a seed with boss rando, the seed will not work.
 1. Get the .pnach seed file from [Valaxor's website](https://randomizer.valaxor.com/#/seed).
-2. Drag your .pnach file and drop it onto "Rando Converter.exe".
-(Alternatively, you can copy the file into the same directory, launch the .exe and input the file name.)
+2. Open `converter.html` inside your extracted Rando Converter folder in your web browser (just double click it).
+3. Follow the instructions on the web page.
 
 ## Setting up LuaFrontend
 1. Open `LuaFrontend.exe`
