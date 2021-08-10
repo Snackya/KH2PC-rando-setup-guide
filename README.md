@@ -2,8 +2,7 @@
 This guide will show you how to get the KH2FM randomizer running with sonic's GoA mod on PC using Topaz's LuaFrontend.
 
 ## What you will need
-- [LuaFrontend](https://github.com/Topaz-Reality/LuaFrontend/releases/latest)
-download LuaFrontend.7z; if you don't have 7zip to extract the archive, you can download it [here](https://www.7-zip.org/download.html)
+- DINPUT8.zip from [LuaBackend Hook](https://github.com/Sirius902/LuaBackend/releases/latest)
 - the [GoA.RAM.lua mod file and Rando converter](https://github.com/1234567890num/Garden-of-Assemblage-Mod-Lua/releases/latest)
 - a .pnach randomizer seed file generated on [Valaxor's website](https://randomizer.valaxor.com/#/seed)
 Just choose whichever settings you want and click "Download Seed" -> "CrazyCatz..."
@@ -17,16 +16,16 @@ You will need a new seed for every new run.
 2. Open `converter.html` inside your extracted Rando Converter folder in your web browser (just double click it).
 3. Follow the instructions on the web page.
 
-## Setting up LuaFrontend
-1. Open `LuaFrontend.exe`
-2. On the left side under "Games:", choose your game. ("[GL]" stands for global here and is usually what you'll want unless you specifically bought the japanese release.)
-3. Right-click inside the box on the right under "Scripts:". Then click `Open Script Folder...`. Windows should open that folder in its File Explorer.
-4. Copy your script files (GoA.lua and your [seed file](##Creating-a-seed)) into this folder.
-5. Right-click inside the right box of LuaFrontend again and click `Refresh List`. Every script you have should now be listed inside the box with a green checkmark icon. If it shows a red X, double click the script to get a detailed error about what the problem is.
-6. Start your game and click Engine > `Start Engine`. (You can also start your game afterwards. It does not matter.)
-7. **Optional:** To reduce CPU load on single cores, enable multithreading under Engine > `Enable Multi-Threading`. This will require one logical CPU thread for each script, so make sure your CPU has enough of them. (If you only run GoA and a rando seed file, this option should work for most CPUs).
+## Setting up LuaBackend Hook
+1. Copy `DINPUT8.dll` from the `DINPUT8` folder (LuaBackend Hook download) to the location of your `KINGDOM HEARTS II FINAL MIX.exe`
+2. Create a folder called `scripts` inside `Documents\KINGDOM HEARTS HD 1.5+2.5 ReMIX`
+3. Copy your scripts (`GoA.RAM.lua` and your seed .lua file) into the newly created `scripts` folder
+4. Done. You can now run your game regularly. To see if the LuaBackend Hook is working, press the F2 key in game to open its console.  
+ 
+Note: LuaBackend Hook will run with every game launch now. To uninstall it, just delete `DINPUT8.dll`.
 
 ## Acknowledgments
 - [Sonicshadowsilver2](https://github.com/sonicshadowsilver2) for creating the GoA mod.
-- [Topaz](https://github.com/Topaz-Reality) for creating LuaFrontend.
+- [1234567890num](https://github.com/1234567890num) for all his contributions to KH2 modding.
+- [Sirius902](https://github.com/Sirius902/LuaBackend) for maintaining LuaBackend Hook.
 - [Valaxor](https://github.com/afresquet) for creating the seed generator.
