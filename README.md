@@ -18,8 +18,8 @@ You will need a new seed for every new run.
 
 ## Setting up LuaBackend Hook
 1. Copy `DINPUT8.dll` from the `DINPUT8` folder (LuaBackend Hook download) to the location of your `KINGDOM HEARTS II FINAL MIX.exe`
-2. Create a folder called `scripts` inside `Documents\KINGDOM HEARTS HD 1.5+2.5 ReMIX`
-3. Copy your scripts (`GoA.RAM.lua` and your seed .lua file) into the newly created `scripts` folder
+2. Create a folder called `scripts` inside ``
+3. Copy your scripts (`GoA.RAM.lua` and your seed .lua file) to `Documents\KINGDOM HEARTS HD 1.5+2.5 ReMIX\scripts\kh2`. Create new folders, where necessary. (For version <1.1.0, it is `Documents\KINGDOM HEARTS HD 1.5+2.5 ReMIX\scripts`)
 4. Done. You can now run your game regularly. To see if the LuaBackend Hook is working, press the F2 key in game to open its console.  
  
 Note: LuaBackend Hook will run with every game launch now. To uninstall it, just delete `DINPUT8.dll`.
