@@ -1,3 +1,11 @@
+# THIS GUIDE HAS BEEN DEPRECATED!
+To install KH2 Randomizer on PC, please instead follow the [guide on the official website](https://tommadness.github.io/KH2Randomizer/setup/Panacea-ModLoader/).
+
+This guide was originally written for an older version of the KH2 rando and uses outdated/deprecated tools with less features and convenience than the current method. Please don't use it anymore.
+
+
+
+
 # KH2FM PC Randomizer Setup Guide
 This guide will show you how to get the KH2FM randomizer running with sonic's GoA mod on PC using Topaz's LuaFrontend.
 
